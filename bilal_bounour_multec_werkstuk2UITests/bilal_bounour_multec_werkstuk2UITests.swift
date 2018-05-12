@@ -2,7 +2,7 @@
 //  bilal_bounour_multec_werkstuk2UITests.swift
 //  bilal_bounour_multec_werkstuk2UITests
 //
-//  Created by Samed Yildirim on 12/05/18.
+//  Created by Bilal Bounour on 12/05/18.
 //  Copyright © 2018 bounour_bilal. All rights reserved.
 //
 

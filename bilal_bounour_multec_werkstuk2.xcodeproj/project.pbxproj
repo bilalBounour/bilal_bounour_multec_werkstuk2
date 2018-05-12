@@ -15,6 +15,7 @@
 		F8DD58C220A74EC2007659CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8DD58C020A74EC2007659CE /* LaunchScreen.storyboard */; };
 		F8DD58CD20A74EC2007659CE /* bilal_bounour_multec_werkstuk2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD58CC20A74EC2007659CE /* bilal_bounour_multec_werkstuk2Tests.swift */; };
 		F8DD58D820A74EC2007659CE /* bilal_bounour_multec_werkstuk2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD58D720A74EC2007659CE /* bilal_bounour_multec_werkstuk2UITests.swift */; };
+		F8DD58E620A7840A007659CE /* VilloBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD58E520A7840A007659CE /* VilloBank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F8DD58D320A74EC2007659CE /* bilal_bounour_multec_werkstuk2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bilal_bounour_multec_werkstuk2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DD58D720A74EC2007659CE /* bilal_bounour_multec_werkstuk2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bilal_bounour_multec_werkstuk2UITests.swift; sourceTree = "<group>"; };
 		F8DD58D920A74EC2007659CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8DD58E520A7840A007659CE /* VilloBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VilloBank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				F8DD58B420A74EBF007659CE /* AppDelegate.swift */,
 				F8DD58B620A74EBF007659CE /* ViewController.swift */,
+				F8DD58E520A7840A007659CE /* VilloBank.swift */,
 				F8DD58B820A74EBF007659CE /* Main.storyboard */,
 				F8DD58BE20A74EC2007659CE /* Assets.xcassets */,
 				F8DD58C020A74EC2007659CE /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8DD58E620A7840A007659CE /* VilloBank.swift in Sources */,
 				F8DD58BD20A74EBF007659CE /* bilal_bounour_multec_werkstuk2.xcdatamodeld in Sources */,
 				F8DD58B720A74EBF007659CE /* ViewController.swift in Sources */,
 				F8DD58B520A74EBF007659CE /* AppDelegate.swift in Sources */,
