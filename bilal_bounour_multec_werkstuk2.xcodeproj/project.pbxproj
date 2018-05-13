@@ -16,6 +16,7 @@
 		F8DD58CD20A74EC2007659CE /* bilal_bounour_multec_werkstuk2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD58CC20A74EC2007659CE /* bilal_bounour_multec_werkstuk2Tests.swift */; };
 		F8DD58D820A74EC2007659CE /* bilal_bounour_multec_werkstuk2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD58D720A74EC2007659CE /* bilal_bounour_multec_werkstuk2UITests.swift */; };
 		F8DD58E620A7840A007659CE /* VilloBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD58E520A7840A007659CE /* VilloBank.swift */; };
+		F8DD58F420A7DD42007659CE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8DD58F620A7DD42007659CE /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,13 @@
 		F8DD58D720A74EC2007659CE /* bilal_bounour_multec_werkstuk2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bilal_bounour_multec_werkstuk2UITests.swift; sourceTree = "<group>"; };
 		F8DD58D920A74EC2007659CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8DD58E520A7840A007659CE /* VilloBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VilloBank.swift; sourceTree = "<group>"; };
+		F8DD58F720A7DD59007659CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F8DD58F820A7E34B007659CE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		F8DD58F920A7E34B007659CE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F8DD58FA20A7E34C007659CE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F8DD58FB20A7E35F007659CE /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		F8DD58FC20A7E35F007659CE /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F8DD58FD20A7E35F007659CE /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		F8DD58A820A74EBF007659CE = {
 			isa = PBXGroup;
 			children = (
+				F8DD58F620A7DD42007659CE /* Localizable.strings */,
 				F8DD58B320A74EBF007659CE /* bilal_bounour_multec_werkstuk2 */,
 				F8DD58CB20A74EC2007659CE /* bilal_bounour_multec_werkstuk2Tests */,
 				F8DD58D620A74EC2007659CE /* bilal_bounour_multec_werkstuk2UITests */,
@@ -217,6 +226,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				nl,
 			);
 			mainGroup = F8DD58A820A74EBF007659CE;
 			productRefGroup = F8DD58B220A74EBF007659CE /* Products */;
@@ -236,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8DD58C220A74EC2007659CE /* LaunchScreen.storyboard in Resources */,
+				F8DD58F420A7DD42007659CE /* Localizable.strings in Resources */,
 				F8DD58BF20A74EC2007659CE /* Assets.xcassets in Resources */,
 				F8DD58BA20A74EBF007659CE /* Main.storyboard in Resources */,
 			);
@@ -305,6 +317,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				F8DD58B920A74EBF007659CE /* Base */,
+				F8DD58F820A7E34B007659CE /* fr */,
+				F8DD58FB20A7E35F007659CE /* nl */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -313,8 +327,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				F8DD58C120A74EC2007659CE /* Base */,
+				F8DD58F920A7E34B007659CE /* fr */,
+				F8DD58FC20A7E35F007659CE /* nl */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F8DD58F620A7DD42007659CE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8DD58F720A7DD59007659CE /* Base */,
+				F8DD58FA20A7E34C007659CE /* fr */,
+				F8DD58FD20A7E35F007659CE /* nl */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -324,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -384,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
